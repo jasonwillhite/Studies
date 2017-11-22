@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{7D488EEC-4A7D-47E1-B8A2-B89EE73B059C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPatterns Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPatterns.Builder/Program.cs">
     <Files>
-      <File FileName="DesignPatterns Status" />
+      <File FileName="DesignPatterns.Builder/Program.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

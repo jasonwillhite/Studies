@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFactory", "DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj", "{7D488EEC-4A7D-47E1-B8A2-B89EE73B059C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Builder", "DesignPatterns.Builder\DesignPatterns.Builder.csproj", "{9FD3AA08-863E-4C46-864E-69E00AA2350A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{7D488EEC-4A7D-47E1-B8A2-B89EE73B059C}.Debug|x86.Build.0 = Debug|x86
 		{7D488EEC-4A7D-47E1-B8A2-B89EE73B059C}.Release|x86.ActiveCfg = Release|x86
 		{7D488EEC-4A7D-47E1-B8A2-B89EE73B059C}.Release|x86.Build.0 = Release|x86
+		{9FD3AA08-863E-4C46-864E-69E00AA2350A}.Debug|x86.ActiveCfg = Debug|x86
+		{9FD3AA08-863E-4C46-864E-69E00AA2350A}.Debug|x86.Build.0 = Debug|x86
+		{9FD3AA08-863E-4C46-864E-69E00AA2350A}.Release|x86.ActiveCfg = Release|x86
+		{9FD3AA08-863E-4C46-864E-69E00AA2350A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
