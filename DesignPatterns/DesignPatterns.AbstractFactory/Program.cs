@@ -9,6 +9,8 @@ namespace DesignPatterns.AbstractFactory
     {
         public static void Main(string[] args)
         {
+            // An abstract factor is often a Singleton
+
             string factory = System.Configuration.ConfigurationManager.AppSettings["factory"];
             var type = Assembly.GetExecutingAssembly().ExportedTypes.FirstOrDefault(x => x.Name.ToLower().Contains(factory.ToLower()));
             var f = Activator.CreateInstance(type) as MenuFactory;
