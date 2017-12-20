@@ -5,6 +5,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Builder", "DesignPatterns.Builder\DesignPatterns.Builder.csproj", "{9FD3AA08-863E-4C46-864E-69E00AA2350A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Factory", "DesignPatterns.Factory\DesignPatterns.Factory.csproj", "{F4E48826-8FA2-4767-A6EC-EA52CA43EDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Prototype", "DesignPatterns.Prototype\DesignPatterns.Prototype.csproj", "{20444E0B-FD1E-48E9-A600-001AD5FA125C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Singleton", "DesignPatterns.Singleton\DesignPatterns.Singleton.csproj", "{0930BB03-B15F-4C3E-BCE0-8A326C54069D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +25,17 @@ Global
 		{9FD3AA08-863E-4C46-864E-69E00AA2350A}.Debug|x86.Build.0 = Debug|x86
 		{9FD3AA08-863E-4C46-864E-69E00AA2350A}.Release|x86.ActiveCfg = Release|x86
 		{9FD3AA08-863E-4C46-864E-69E00AA2350A}.Release|x86.Build.0 = Release|x86
+		{F4E48826-8FA2-4767-A6EC-EA52CA43EDE6}.Debug|x86.ActiveCfg = Debug|x86
+		{F4E48826-8FA2-4767-A6EC-EA52CA43EDE6}.Debug|x86.Build.0 = Debug|x86
+		{F4E48826-8FA2-4767-A6EC-EA52CA43EDE6}.Release|x86.ActiveCfg = Release|x86
+		{F4E48826-8FA2-4767-A6EC-EA52CA43EDE6}.Release|x86.Build.0 = Release|x86
+		{20444E0B-FD1E-48E9-A600-001AD5FA125C}.Debug|x86.ActiveCfg = Debug|x86
+		{20444E0B-FD1E-48E9-A600-001AD5FA125C}.Debug|x86.Build.0 = Debug|x86
+		{20444E0B-FD1E-48E9-A600-001AD5FA125C}.Release|x86.ActiveCfg = Release|x86
+		{20444E0B-FD1E-48E9-A600-001AD5FA125C}.Release|x86.Build.0 = Release|x86
+		{0930BB03-B15F-4C3E-BCE0-8A326C54069D}.Debug|x86.ActiveCfg = Debug|x86
+		{0930BB03-B15F-4C3E-BCE0-8A326C54069D}.Debug|x86.Build.0 = Debug|x86
+		{0930BB03-B15F-4C3E-BCE0-8A326C54069D}.Release|x86.ActiveCfg = Release|x86
+		{0930BB03-B15F-4C3E-BCE0-8A326C54069D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

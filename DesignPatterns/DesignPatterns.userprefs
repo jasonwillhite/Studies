@@ -1,10 +1,5 @@
 ﻿<Properties StartupConfiguration="{9FD3AA08-863E-4C46-864E-69E00AA2350A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPatterns.AbstractFactory/Program.cs">
-    <Files>
-      <File FileName="DesignPatterns.Builder/Program.cs" Line="1" Column="1" />
-      <File FileName="DesignPatterns.AbstractFactory/Program.cs" Line="12" Column="55" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
