@@ -12,19 +12,19 @@ namespace CacheExperiment
         public static void Main(string[] args)
         {
 
-            //using (var conn = ConnectionMultiplexer.Connect("127.0.0.1:6379"))
-            //{
-            //    var db = conn.GetDatabase();
+            using (var conn = ConnectionMultiplexer.Connect("localhost:6379, ssl=false, abortConnect=false, syncTimeout=4000"))
+            {
+                var db = conn.GetDatabase();
 
-            //    RedisKey key = Me();
-            //    db.KeyDelete(key);
-            //    db.StringSet(key, "abc");
+                RedisKey key = Me();
+                db.KeyDelete(key);
+                db.StringSet(key, "abc");
 
-            //    string s = (string)db.ScriptEvaluate(@"local val = redis.call('get', KEYS[1]) redis.call('del', KEYS[1])return val", new RedisKey[] { key }, flags: CommandFlags.NoScriptCache);
+                string s = (string)db.ScriptEvaluate(@"local val = redis.call('get', KEYS[1]) redis.call('del', KEYS[1])return val", new RedisKey[] { key }, flags: CommandFlags.NoScriptCache);
 
-            //    Console.WriteLine(s);
-            //    Console.WriteLine(db.KeyExists(key));
-            //}       
+                Console.WriteLine(s);
+                Console.WriteLine(db.KeyExists(key));
+            }       
 
             ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("localhost, abortConnect=false,");
 

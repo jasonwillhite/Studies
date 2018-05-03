@@ -9,3 +9,14 @@
 /Users/Willhites/Projects/github/Caching/CacheExperiment/CacheExperiment/bin/Debug/Newtonsoft.Json.xml
 /Users/Willhites/Projects/github/Caching/CacheExperiment/CacheExperiment/obj/x86/Debug/CacheExperiment.exe
 /Users/Willhites/Projects/github/Caching/CacheExperiment/CacheExperiment/obj/x86/Debug/CacheExperiment.pdb
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/bin/Debug/CacheExperiment.exe.config
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/bin/Debug/CacheExperiment.exe
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/bin/Debug/CacheExperiment.pdb
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/bin/Debug/Newtonsoft.Json.dll
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/bin/Debug/StackExchange.Redis.dll
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/bin/Debug/StackExchange.Redis.xml
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/bin/Debug/Newtonsoft.Json.xml
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/obj/x86/Debug/CacheExperiment.csprojResolveAssemblyReference.cache
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/obj/x86/Debug/CacheExperiment.csproj.CoreCompileInputs.cache
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/obj/x86/Debug/CacheExperiment.exe
+/Users/Willhites/Projects/github/Studies/Caching/CacheExperiment/CacheExperiment/obj/x86/Debug/CacheExperiment.pdb
