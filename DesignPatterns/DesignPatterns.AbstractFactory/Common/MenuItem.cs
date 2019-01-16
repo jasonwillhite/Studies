@@ -1,5 +1,4 @@
-﻿using System;
-namespace DesignPatterns.AbstractFactory.Common
+﻿namespace DesignPatterns.AbstractFactory.Common
 {
     public class MenuItem
     {
@@ -7,7 +6,7 @@ namespace DesignPatterns.AbstractFactory.Common
 
         public decimal Price { get; set; }
 
-        public override String ToString()
+        public override string ToString()
         {
             return $"{Name} - {Price:C}";   
         }

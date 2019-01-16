@@ -4,3 +4,4 @@
 /Users/Willhites/Projects/github/Studies/DesignPatterns/DesignPatterns.AbstractFactory/obj/x86/Debug/DesignPatterns.AbstractFactory.csproj.CoreCompileInputs.cache
 /Users/Willhites/Projects/github/Studies/DesignPatterns/DesignPatterns.AbstractFactory/obj/x86/Debug/DesignPatterns.AbstractFactory.exe
 /Users/Willhites/Projects/github/Studies/DesignPatterns/DesignPatterns.AbstractFactory/obj/x86/Debug/DesignPatterns.AbstractFactory.pdb
+/Users/Willhites/Projects/github/Studies/DesignPatterns/DesignPatterns.AbstractFactory/obj/x86/Debug/DesignPatterns.AbstractFactory.csprojAssemblyReference.cache

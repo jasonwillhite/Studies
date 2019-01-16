@@ -1,5 +1,4 @@
-﻿using System;
-using DesignPatterns.AbstractFactory.Common;
+﻿using DesignPatterns.AbstractFactory.Common;
 
 namespace DesignPatterns.AbstractFactory.Factories
 {

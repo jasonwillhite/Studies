@@ -11,8 +11,13 @@ namespace DesignPatterns.AbstractFactory
         {
             // An abstract factory is often a Singleton
 
+            // Get the name of the factory from the app settings
             string factory = System.Configuration.ConfigurationManager.AppSettings["factory"];
+
+            // Find the object with the corresponding name
             var type = Assembly.GetExecutingAssembly().ExportedTypes.FirstOrDefault(x => x.Name.ToLower().Contains(factory.ToLower()));
+
+            // Instantiate the factory
             var f = Activator.CreateInstance(type) as MenuFactory;
             Menu menu = new Menu(f);
 

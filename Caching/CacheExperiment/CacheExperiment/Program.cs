@@ -7,17 +7,21 @@ namespace CacheExperiment
 {
     class MainClass
     {
-        private static readonly ICache cache = new LaCache();
+        private static readonly ICache cache;// = new LaCache();
 
         public static void Main(string[] args)
         {
 
-            using (var conn = ConnectionMultiplexer.Connect("localhost:6379, ssl=false, abortConnect=false, syncTimeout=4000"))
+            Console.WriteLine(IntPtr.Size);
+
+            using (var conn = ConnectionMultiplexer.Connect("127.0.0.1, abortConnect=false, syncTimeout=4000, connectTimeout=10000"))
             {
                 var db = conn.GetDatabase();
 
+                var database = db.Database;
+
                 RedisKey key = Me();
-                db.KeyDelete(key);
+                //db.KeyDelete(key);
                 db.StringSet(key, "abc");
 
                 string s = (string)db.ScriptEvaluate(@"local val = redis.call('get', KEYS[1]) redis.call('del', KEYS[1])return val", new RedisKey[] { key }, flags: CommandFlags.NoScriptCache);

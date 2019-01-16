@@ -1,5 +1,4 @@
-﻿using System;
-using DesignPatterns.AbstractFactory.Common;
+﻿using DesignPatterns.AbstractFactory.Common;
 
 namespace DesignPatterns.AbstractFactory.Factories
 {
@@ -14,10 +13,10 @@ namespace DesignPatterns.AbstractFactory.Factories
         {
             get
             {
-                yield return new MenuItem() { Name = "Burger", Price = 2.99M };
-                yield return new MenuItem() { Name = "Fries", Price = 1.99M };
-                yield return new MenuItem() { Name = "Nuggets", Price = 3.99M };
-                yield return new MenuItem() { Name = "Pie", Price = 0.99M };
+                yield return new MenuItem { Name = "Burger", Price = 2.99M };
+                yield return new MenuItem { Name = "Fries", Price = 1.99M };
+                yield return new MenuItem { Name = "Nuggets", Price = 3.99M };
+                yield return new MenuItem { Name = "Pie", Price = 0.99M };
             }
         }
 
@@ -25,10 +24,10 @@ namespace DesignPatterns.AbstractFactory.Factories
         {
             get
             {
-                yield return new MenuItem() { Name = "Soda", Price = 2.99M };
-                yield return new MenuItem() { Name = "Shake", Price = 1.99M };
-                yield return new MenuItem() { Name = "Coffee", Price = 3.99M };
-                yield return new MenuItem() { Name = "Beer", Price = 0.99M };
+                yield return new MenuItem { Name = "Soda", Price = 2.99M };
+                yield return new MenuItem { Name = "Shake", Price = 1.99M };
+                yield return new MenuItem { Name = "Coffee", Price = 3.99M };
+                yield return new MenuItem { Name = "Beer", Price = 0.99M };
             }
         }
     }
