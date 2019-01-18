@@ -4,13 +4,13 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="DesignPatterns.Singleton/Common/Singleton.cs">
     <Files>
       <File FileName="DesignPatterns.Builder/Program.cs" Line="1" Column="1" />
-      <File FileName="DesignPatterns.AbstractFactory/Program.cs" Line="23" Column="13" />
+      <File FileName="DesignPatterns.AbstractFactory/Program.cs" Line="23" Column="1" />
       <File FileName="DesignPatterns.AbstractFactory/app.config" Line="4" Column="3" />
       <File FileName="DesignPatterns.Factory/Program.cs" Line="1" Column="1" />
       <File FileName="DesignPatterns.AbstractFactory/Common/Menu.cs" Line="1" Column="1" />
       <File FileName="DesignPatterns.AbstractFactory/Common/MenuFactory.cs" Line="1" Column="1" />
       <File FileName="DesignPatterns.AbstractFactory/Common/MenuItem.cs" Line="1" Column="1" />
-      <File FileName="DesignPatterns.AbstractFactory/Factories/FastFoodFactory.cs" Line="22" Column="9" />
+      <File FileName="DesignPatterns.AbstractFactory/Factories/FastFoodFactory.cs" Line="22" Column="1" />
       <File FileName="DesignPatterns.AbstractFactory/Factories/OrganicDinerFactory.cs" Line="1" Column="1" />
       <File FileName="DesignPatterns.AbstractFactory/Factories/RestaurantFactory.cs" Line="1" Column="1" />
       <File FileName="DesignPatterns.Singleton/Program.cs" Line="1" Column="1" />
