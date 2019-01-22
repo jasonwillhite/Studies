@@ -7,6 +7,10 @@
 *.ide-shm
 *.ide-wal
 *.suo
-bin
-obj
-packages
+_ReSharper.*/
+*.sdf
+bin/
+obj/
+Debug/
+Release/
+packages/
