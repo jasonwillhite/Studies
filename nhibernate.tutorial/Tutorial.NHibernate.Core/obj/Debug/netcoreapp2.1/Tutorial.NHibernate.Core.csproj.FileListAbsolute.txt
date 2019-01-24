@@ -1,8 +1,0 @@
-C:\Users\will1470\github\Studies\nhibernate.tutorial\Tutorial.NHibernate.Core\bin\Debug\netcoreapp2.1\Tutorial.NHibernate.Core.deps.json
-C:\Users\will1470\github\Studies\nhibernate.tutorial\Tutorial.NHibernate.Core\bin\Debug\netcoreapp2.1\Tutorial.NHibernate.Core.runtimeconfig.json
-C:\Users\will1470\github\Studies\nhibernate.tutorial\Tutorial.NHibernate.Core\bin\Debug\netcoreapp2.1\Tutorial.NHibernate.Core.runtimeconfig.dev.json
-C:\Users\will1470\github\Studies\nhibernate.tutorial\Tutorial.NHibernate.Core\bin\Debug\netcoreapp2.1\Tutorial.NHibernate.Core.dll
-C:\Users\will1470\github\Studies\nhibernate.tutorial\Tutorial.NHibernate.Core\obj\Debug\netcoreapp2.1\Tutorial.NHibernate.Core.csprojAssemblyReference.cache
-C:\Users\will1470\github\Studies\nhibernate.tutorial\Tutorial.NHibernate.Core\obj\Debug\netcoreapp2.1\Tutorial.NHibernate.Core.csproj.CoreCompileInputs.cache
-C:\Users\will1470\github\Studies\nhibernate.tutorial\Tutorial.NHibernate.Core\obj\Debug\netcoreapp2.1\Tutorial.NHibernate.Core.AssemblyInfoInputs.cache
-C:\Users\will1470\github\Studies\nhibernate.tutorial\Tutorial.NHibernate.Core\obj\Debug\netcoreapp2.1\Tutorial.NHibernate.Core.AssemblyInfo.cs

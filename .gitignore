@@ -20,6 +20,8 @@
 /*.zip
 /.external_tools_downloaded
 /bin
+\bin
+bin
 \.vs*
 /cc
 /cc.txt
