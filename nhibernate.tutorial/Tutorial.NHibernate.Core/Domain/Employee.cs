@@ -12,7 +12,7 @@ namespace Tutorial.NHibernate.Core.Domain
         public string EmailAddress { get; set; }
         public DateTime DateOfBirth { get; set; }
         public DateTime DateOfJoining { get; set; }
-
+        public ICollection<Leave> Leaves { get; set; }
         public Address ResidentialAddress { get; set; }
         public bool IsAdmin { get; set; }
         public string Password { get; set; }
